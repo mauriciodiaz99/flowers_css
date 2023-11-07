@@ -20,7 +20,7 @@ async function verificarClave() {
         return new Promise((resolve) => {
           if (value === "") {
             resolve("Enter your password!");
-          } else if (value != 'Edward02') {
+          } else if (value != 'Edward01') {
             resolve("Incorrect password!");
           } else {
             resolve();
